@@ -14,7 +14,7 @@ int main(){
     {
         k++;
     }
-
+    //пишу что-то
     fclose(in);
     fclose(out);
     return 0;
