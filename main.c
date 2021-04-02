@@ -14,7 +14,8 @@ int main(){
     {
         k++;
     }
-
+//one
+    for (;;){}
     fclose(in);
     fclose(out);
     return 0;
