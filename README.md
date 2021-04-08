@@ -78,8 +78,8 @@ ____
 
 int col (int n, int y, int x)
 {
-  /*Привет
-  я рекурсивная функция*/
+    //Привет
+    //я рекурсивная функция
     if ( n/10 == 0)
     {
         return n;
@@ -88,7 +88,7 @@ int col (int n, int y, int x)
     {
         return n%10 + col (n/10,a,b);
     }
-    for ( ; ; )//Вечный цикл
+    for ( ; ; ) //Вечный цикл
     {
         y = sum(x, 5);
     }
@@ -112,15 +112,16 @@ int main()
     printf("%c",'zebu');
     printf("%c",'pekatka');
   //
-  /*tgkfecigbvtun2c]  -[r,DS CL,Dsnuybth,owmcjbnkzd.*/
+    //tgkfecigbvtun2c]  -[r,DS CL,Dsnuybth,owmcjbnkzd.
     int a = 15; 
     int b = a;
     int z = 0; 
     int n;
-    scanf("%d", &n);/*Тут
-  вызывается рекурсивная функция,
-  но я не помню,
-  что она делает*/
+    scanf("%d", &n);
+    //Тут
+    //вызывается рекурсивная функция,
+    //но я не помню,
+    //что она делает
     printf("%d\n",col(n,a,b));
     z = col(n);
     for(i = 0; i <= a; i++) //цикл в цикле в цикле
@@ -137,21 +138,22 @@ int main()
         printf("%c",'*');
     }
     while (1);
-    k = 0;  //Вечный цикл
+    k = 0; //Вечный цикл
     for ( int i = 0; i <= k ; i--) 
     { 
         i ++ 
     }
     a = 15;
     b = 4;
-  /*тут вызывается
-                    вторая
-функция*/
+    //тут вызывается
+    //вторая
+    //функция
     int sum = SuMMa(a,b);
-    printf("%d", p+3);  //Не инициализированный p
+    printf("%d", p+3); //Не инициализированный p
     int num;
     scanf("%d", &num); 
     int rec = num + 2;
     return 0;
 }
 ```
+---
