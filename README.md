@@ -76,32 +76,26 @@ ____
 ```c
 #include <stdio.h>
 
-int col (int n, int y, int x)
-{
+int col (int n, int y, int x){
     //Привет
     //я рекурсивная функция
-    if ( n/10 == 0)
-    {
+    if ( n/10 == 0){
         return n;
     }
-    else
-    {
+    else{
         return n%10 + col (n/10,a,b);
     }
-    for ( ; ; ) //Вечный цикл
-    {
+    for ( ; ; ){ //Вечный цикл
         y = sum(x, 5);
     }
 }
-int SuMMa(int x, int z)
-{
+int SuMMa(int x, int z){
   int y;
   y = x + z;
   return(y);
 }
 
-int main()
-{
+int main(){
     int p;
     int i,j,k = 0;
     char zebu;
@@ -124,24 +118,20 @@ int main()
     //что она делает
     printf("%d\n",col(n,a,b));
     z = col(n);
-    for(i = 0; i <= a; i++) //цикл в цикле в цикле
-    {
-        for(j = 20; j>= b - 10; j--)
-        {
+    for(i = 0; i <= a; i++){ //цикл в цикле в цикле
+        for(j = 20; j >= b - 10; j--){
             while(k < 10)
             k++;
         }
     }
     printf("%d",k); //Вечный цикл
-    do 
-    {
+    do{
         printf("%c",'*');
     }
     while (1);
     k = 0; //Вечный цикл
-    for ( int i = 0; i <= k ; i--) 
-    { 
-        i ++ 
+    for ( int i = 0; i <= k ; i--){ 
+        i ++; 
     }
     a = 15;
     b = 4;
